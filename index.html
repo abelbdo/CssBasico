@@ -3,41 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modelo Vitrine Virtual</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Vitrine de Hardwares</h1>
-  <p>Escolha seu Hardware e veja sua funcionalidade</p>
+  <!--Cards de exibição dos produtos -->
+  <div id="banner"></div>
+  <h1>Vitrine Virtual</h1>
+
+  <!--Menu lateral-->
+  <input type="checkbox" id="check">
+  <label for="check" id="labelMenuL">
+    <img src="./CSS/img/menu.png" id="imgMenu">
+  </label>
+  <nav>
+    <ul id="MenuLateralUl">
+      <li><a href="index.html" id="linksMenu">HOME</a></li>
+      <li><a href="" id="linksMenu">PRODUTOS</a></li>
+      <li><a href="" id="linksMenu">CONTATO</a></li>
+      <li><a href="" id="linksMenu">SOBRE</a></li>
+    </ul>
+  </nav>
+
+<!--Produtos em vitrine-->
+
   <div class="container">
       <div class="card" id="card-1">
         <div class="card-image"></div>
         <div class="card-description">
-            <p>Disco rígido, chamado também de HD</p>
-            <a href="https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido" class="btn">Ver Mais</a>
+            <p>Johnnie Walker Red Label 1L</p><br>
+            <p id="price"><strong>R$88,90</strong> </p>
+            <a href="https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido" class="btn">Comprar</a>
         </div>
       </div>
       <div class="card" id="card-2">
         <div class="card-image"></div>
         <div class="card-description">
-            <p>GPU, ou unidade de processamento visual</p>
-            <a href="https://pt.wikipedia.org/wiki/Unidade_de_processamento_gr%C3%A1fico" class="btn">Ver Mais</a>
+            <p>Johnnie Walker Black Label 1L</p><br>
+            <p id="price"><strong>R$139,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Unidade_de_processamento_gr%C3%A1fico" class="btn">Comprar</a>
         </div>
       </div>
       <div class="card" id="card-3">
         <div class="card-image"></div>
         <div class="card-description">
-            <p>CPU, também conhecida como processador</p>
-            <a href="https://pt.wikipedia.org/wiki/Unidade_central_de_processamento" class="btn">Ver Mais</a>
+            <p>Johnnie Walker Gold Label 750ml</p><br>
+            <p id="price"><strong>R$209,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Unidade_central_de_processamento" class="btn">Comprar</a>
         </div>
       </div>
       <div class="card" id="card-4">
         <div class="card-image"></div>
         <div class="card-description">
-            <p>Memória de acesso randômico, ou RAM</p>
-            <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio" class="btn">Ver Mais</a>
+            <p>Johnnie Walker Blue Label 750ml</p><br>
+            <p id="price"><strong>R$849,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio" class="btn">Comprar</a>
+        </div>
+      </div>
+      <div class="card" id="card-5">
+        <div class="card-image"></div>
+        <div class="card-description">
+            <p>Jack Daniel's Nº7 1L</p><br>
+            <p id="price"><strong>R$149,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio" class="btn">Comprar</a>
+        </div>
+      </div>
+      <div class="card" id="card-6">
+        <div class="card-image"></div>
+        <div class="card-description">
+            <p>Jack Daniel's Fire 1L</p><br>
+            <p id="price"><strong>R$138,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio" class="btn">Comprar</a>
+        </div>
+      </div>
+      <div class="card" id="card-7">
+        <div class="card-image"></div>
+        <div class="card-description">
+            <p>Jameson irish whiskey 1L</p><br>
+            <p id="price"><strong>R$107,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio" class="btn">Comprar</a>
+        </div>
+      </div>
+      <div class="card" id="card-8">
+        <div class="card-image"></div>
+        <div class="card-description">
+            <p>Grand Old Parr 1L</p><br>
+            <p id="price"><strong>R$149,90</strong></p>
+            <a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio" class="btn">Comprar</a>
         </div>
       </div>
   </div>
+
+<footer>
+  <p></p>
+  <ul id="footerContact">
+    <li><a href="https://api.whatsapp.com/send?phone=5583998870067&text=Ol%C3%A1"><img src="./CSS/img/WhatsApp-icone.png" id="zapIcon"></a></li><br>
+    <li><a href="https://www.linkedin.com/in/abel-batista-de-oliveira-19a514156/"><img src="./CSS/img/linkedin-logo.png" id="LinkIcon"></a></li><br>
+    <li><a href="https://github.com/abelbdo"><img src="./CSS/img/GitHub-Mark.png" id="GitIcon"></a></li>
+  </ul>
+</footer>
 </body>
 </html>
